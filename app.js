@@ -4,7 +4,7 @@ const { exec } = require('child_process');
 const fs = require('fs');
 
 const app = express();
-const port = 8080;
+const port = 80;
 const logFile = 'output.log';
 
 app.set('view engine', 'ejs');
